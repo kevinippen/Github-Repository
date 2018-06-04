@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Gap Test PDP</title>
+
+          <!-- CSS ================================================== -->
+  <link href="//cdn.shopify.com/s/files/1/1595/6395/t/5/assets/timber.scss.css?3665831180818540687" rel="stylesheet" type="text/css" media="all" />
+  <link href="//cdn.shopify.com/s/files/1/1595/6395/t/5/assets/theme.scss.css?3665831180818540687" rel="stylesheet" type="text/css" media="all" />
+  <link href="//cdn.shopify.com/s/files/1/1595/6395/t/5/assets/powerReviewsOverrides.css?3665831180818540687" rel="stylesheet" type="text/css" media="all" />
+</head>
+<body>
+  
+
+        <div class="grid product-single">
+      <div class="grid__item large--seven-twelfths medium--seven-twelfths text-center">
+        <div class="product-single__photos">
+          
+
+          
+          <div class="product-single__photo-wrapper">
+                        <div id="pr-reviewimagesnippet"></div>
+            <img class="product-single__photo"
+              id="ProductPhotoImg"
+              src="http://www.gapfactory.com/resources/productImage/v1/357980051/VI"
+              
+              alt="Rivno Jacket" data-image-id="15708242251">
+          </div>
+
+          
+          
+            
+          
+        </div>
+      </div>
+
+      <div class="grid__item product-single__meta--wrapper medium--five-twelfths large--five-twelfths">
+        <div class="product-single__meta">
+          
+
+          <h1 class="product-single__title" itemprop="name">Gap Graphic T</h1>
+          
+          <div id="pwr-snippets">
+            <div id="pr-reviewsnippet"></div>
+            <div id="pr-questionsnippet"></div>  
+          </div>   
+        </div>
+      </div>
+    </div>
+    
+        
+
+          
+          
+           
+          
+	<div id="pr-reviewimagedisplay"></div>
+
+
+    <div class="review-tab">
+      <div class="review-tablink active" style="display:none" onclick="powerTab(event,'pr-reviewdisplay')">Reviews</div>
+      <div class="review-tablink" style="display:none" onclick="powerTab(event,'pr-questiondisplay')">Questions and Answers</div>
+    </div>
+ 
+    <div id="pr-reviewdisplay" class="review-tabcontent" style="">
+      <div id="pr-snapshot"></div>
+      <div id="pr-list"></div>
+    </div>
+    <div id="pr-questiondisplay" class="review-tabcontent" style="display:none"></div>
+    
+
+<script src='//ui.powerreviews.com/stable/4.0/ui.js'></script>
+    <script>
+      POWERREVIEWS.display.render({
+        api_key: 'caa839d4-7812-4776-bcd9-caed7f476ede',
+        locale: 'en_US',
+        merchant_group_id: '78519',
+        merchant_id: '651534',
+        page_id: 'Graphic-T-Shirt',
+         pr_ENABLE_REVIEW_FILTERING: 1,
+            ENABLE_REVIEW_SNIPPET_SLIDER: true,
+            review_wrapper_url: 'https://www.prdemostore.com/pages/write-a-review/?pr_page_id=___PAGE_ID___',
+           
+              ENABLE_DEMOGRAPHIC_DISPLAY: 'true',
+            ENABLE_ENHANCED_SNAPSHOT_STYLES: 'true',
+        components: {
+          ReviewSnippet: 'pr-reviewsnippet',
+          ReviewImageSnippet: 'pr-reviewimagedisplay',
+          ReviewDisplay: 'pr-reviewdisplay',
+        }
+      });
+    </script>
+
+
+</body>
+</html>
